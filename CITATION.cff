@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: "The Elara Hypothesis: an N-body test of a shared origin for the Borealis basin and the Moon-forming impact"
+message: "If you use this software or its results, please cite it as below."
+type: software
+authors:
+  - given-names: Misael Nicolas
+    family-names: Gonzalez
+    affiliation: Independent
+  - given-names: Ian Milton
+    family-names: Gonzalez
+    affiliation: Independent		
+abstract: >-
+  An exploratory N-body study testing whether a single dynamical
+  event can account for both the Borealis basin on Mars and the
+  Moon-forming impact on Earth. The scenario proposes that Theia
+  carried a large impact-generated satellite which struck Mars
+  during a close encounter, while Theia survived and later
+  collided with the proto-Earth. Sixty thousand encounters are
+  sampled against pre-specified filters drawn from published
+  Borealis and lunar-formation models. Not a peer-reviewed result.
+keywords:
+  - planetary science
+  - Mars
+  - Borealis basin
+  - Moon formation
+  - Theia
+  - N-body simulation
+  - REBOUND
+license: MIT
+version: "1.0.0"
+date-released: "2026-08-11"
+references:
+  - type: software
+    title: "REBOUND: an open-source multi-purpose N-body code"
+    authors:
+      - family-names: Rein
+        given-names: Hanno
+      - family-names: Liu
+        given-names: Shang-Fei
+    year: 2012
+    journal: "Astronomy & Astrophysics"
+    volume: 537
