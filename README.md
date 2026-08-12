@@ -1,6 +1,6 @@
 # The Elara Hypothesis
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21902401.svg)](https://doi.org/10.5281/zenodo.21902401)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21902401-blue)](https://doi.org/10.5281/zenodo.21902401)
 
 **Can a single dynamical event account for both the Borealis basin on Mars and the Moon-forming impact on Earth?**
 
@@ -14,7 +14,7 @@ This repository contains the N-body pipeline, results and figures behind a specu
 
 ## The hypothesis
 
-Theia â€” the Mars-sized embryo that formed our Moon â€” carried a large impact-generated satellite. Passing close to Mars, that satellite struck the planet and excavated Borealis, the basin that splits Mars into two hemispheres. Theia survived and, millions of years later, collided with the proto-Earth.
+Theia Ã¢â‚¬â€ the Mars-sized embryo that formed our Moon Ã¢â‚¬â€ carried a large impact-generated satellite. Passing close to Mars, that satellite struck the planet and excavated Borealis, the basin that splits Mars into two hemispheres. Theia survived and, millions of years later, collided with the proto-Earth.
 
 Under this reading, Mars did not avoid merging with a planetary embryo by chance. It avoided it barely, and the scar of that near-miss is the largest geological feature on its surface.
 
@@ -22,7 +22,7 @@ Under this reading, Mars did not avoid merging with a planetary embryo by chance
 
 Two open problems sit next to each other and are usually treated separately:
 
-- **The small Mars problem.** Terrestrial planet formation models systematically produce a Mars five to ten times more massive than the real one. Embryos in that region merge; ours somehow did not. Under this hypothesis the region held two Mars-mass bodies and 48 % of that mass migrated inward â€” halving the deficit, though not removing it, and reframing part of it as a transfer rather than a failure to accrete.
+- **The small Mars problem.** Terrestrial planet formation models systematically produce a Mars five to ten times more massive than the real one. Embryos in that region merge; ours somehow did not. Under this hypothesis the region held two Mars-mass bodies and 48 % of that mass migrated inward Ã¢â‚¬â€ halving the deficit, though not removing it, and reframing part of it as a transfer rather than a failure to accrete.
 - **The fine-tuning of the Moon-forming impact.** Giant impacts are expected, but this one required near-minimum velocity, a favourable angle, and an impactor isotopically almost identical to Earth.
 
 The hypothesis proposes that one improbable event produced three consequences, rather than three coincidences occurring independently.
@@ -43,7 +43,7 @@ orbits while Mars carries a debris disc.
 |---|---|
 | ![Mars today](figures/mars_after.png) | ![The Moon-forming impact](figures/earth_impact.png) |
 
-Left: Mars billions of years later â€” a smooth lowland hemisphere against
+Left: Mars billions of years later Ã¢â‚¬â€ a smooth lowland hemisphere against
 ancient cratered highlands. Right: Theia striking the proto-Earth, a hundred
 times more energetic than Borealis and destroying the impactor entirely.
 Full captions in [`figures/README.md`](figures/README.md).
@@ -52,24 +52,24 @@ Full captions in [`figures/README.md`](figures/README.md).
 
 ## What the simulations test
 
-The pipeline samples 60,000 possible binaryâ€“Mars encounters, keeps those reproducing Borealis with the geometry published models require, and then follows the survivors through the inner Solar System to see whether â€” and how â€” they reach Earth.
+The pipeline samples 60,000 possible binaryÃ¢â‚¬â€œMars encounters, keeps those reproducing Borealis with the geometry published models require, and then follows the survivors through the inner Solar System to see whether Ã¢â‚¬â€ and how Ã¢â‚¬â€ they reach Earth.
 
 **All filters were fixed before any run and never adjusted afterwards.**
 
-### Stage 1 â€” Borealis compatibility
+### Stage 1 Ã¢â‚¬â€ Borealis compatibility
 | filter | condition | source |
 |---|---|---|
-| F1a | the satellite impacts Mars | â€” |
-| F1b | Theia survives the encounter | â€” |
-| F1c | impact angle 30â€“60Â° from the surface | Marinova et al. 2008 |
-| F1d | impact speed 1.2â€“2.2 Ã— mutual escape velocity | Marinova et al. 2008 |
+| F1a | the satellite impacts Mars | Ã¢â‚¬â€ |
+| F1b | Theia survives the encounter | Ã¢â‚¬â€ |
+| F1c | impact angle 30Ã¢â‚¬â€œ60Ã‚Â° from the surface | Marinova et al. 2008 |
+| F1d | impact speed 1.2Ã¢â‚¬â€œ2.2 Ãƒâ€” mutual escape velocity | Marinova et al. 2008 |
 
-### Stage 2 â€” lunar-formation compatibility
+### Stage 2 Ã¢â‚¬â€ lunar-formation compatibility
 | filter | condition |
 |---|---|
-| F2a | final Earth semi-major axis = 1.00 Â± 0.02 AU |
-| F2b | impact angular momentum L/L_EM âˆˆ [0.9, 1.4] |
-| F2c | impact speed / escape speed âˆˆ [1.0, 1.3] |
+| F2a | final Earth semi-major axis = 1.00 Ã‚Â± 0.02 AU |
+| F2b | impact angular momentum L/L_EM Ã¢Ë†Ë† [0.9, 1.4] |
+| F2c | impact speed / escape speed Ã¢Ë†Ë† [1.0, 1.3] |
 | F2d | final Earth eccentricity < 0.08 |
 
 ---
@@ -80,16 +80,16 @@ The pipeline samples 60,000 possible binaryâ€“Mars encounters, keeps those 
 |---|---|
 | Borealis-compatible encounters | 175 / 60,000 (0.29 %) |
 | Theia survives, given her satellite impacts | **100 %** |
-| Median Borealis impact angle | **41â€“45Â°** (published requirement: 30â€“60Â°) |
-| Median impact speed | **1.47 Ã— v_esc** (canonical value: 1.4) |
+| Median Borealis impact angle | **41Ã¢â‚¬â€œ45Ã‚Â°** (published requirement: 30Ã¢â‚¬â€œ60Ã‚Â°) |
+| Median impact speed | **1.47 Ãƒâ€” v_esc** (canonical value: 1.4) |
 | Earth impacts passing all four lunar filters | **~50 %** |
-| Coplanar binaries among compatible cases | **49 %** vs 33 % expected (5.6Ïƒ) |
-| P(qualifying lunar impact within 10â· yr), given Borealis | **~7 %** |
-| Same probability for any Mars-class embryo | 4â€“8 % |
+| Coplanar binaries among compatible cases | **49 %** vs 33 % expected (5.6ÃÆ’) |
+| P(qualifying lunar impact within 10Ã¢ÂÂ· yr), given Borealis | **~7 %** |
+| Same probability for any Mars-class embryo | 4Ã¢â‚¬â€œ8 % |
 
-The dynamics â€” the link everyone assumed was fragile â€” turned out to be the solid one.
+The dynamics Ã¢â‚¬â€ the link everyone assumed was fragile Ã¢â‚¬â€ turned out to be the solid one.
 
-One unplanned result: the Borealis filters **select binary orientation**. The satellite's orbital plane was sampled isotropically, yet coplanar configurations are more than twice as common as polar ones among compatible cases. Conditional on the hypothesis and on the satellite being impact-generated, this implies Theia's spin axis was roughly perpendicular to her orbit â€” a property of Theia that was not imposed as an initial condition. See [`results/RESULTS.md`](results/RESULTS.md) for the full output and its caveats.
+One unplanned result: the Borealis filters **select binary orientation**. The satellite's orbital plane was sampled isotropically, yet coplanar configurations are more than twice as common as polar ones among compatible cases. Conditional on the hypothesis and on the satellite being impact-generated, this implies Theia's spin axis was roughly perpendicular to her orbit Ã¢â‚¬â€ a property of Theia that was not imposed as an initial condition. See [`results/RESULTS.md`](results/RESULTS.md) for the full output and its caveats.
 
 ---
 
@@ -97,12 +97,12 @@ One unplanned result: the Borealis filters **select binary orientation**. The sa
 
 With realistic orbital inclinations, waiting for physical collisions would require tens of thousands of integrations. The pipeline instead:
 
-1. Detects close approaches inside a large **watch radius** (0.02 AU for Earth, 0.015 AU for Mars) â€” large enough that every passage is sampled several times per timestep sequence.
+1. Detects close approaches inside a large **watch radius** (0.02 AU for Earth, 0.015 AU for Mars) Ã¢â‚¬â€ large enough that every passage is sampled several times per timestep sequence.
 2. Computes each passage's **periapsis analytically** from two-body geometry, so detection does not depend on a timestep landing near the minimum.
 3. Converts each passage to a collision probability using the **exact ratio of gravitationally focused cross-sections**.
-4. Derives the impact geometry in **closed form**: since `bÂ·vâˆž = b_impÂ·v_imp`, the impact angular momentum is `L = Î¼Â·bÂ·vâˆž`, depending only on `b` and `vâˆž`.
+4. Derives the impact geometry in **closed form**: since `bÃ‚Â·vÃ¢Ë†Å¾ = b_impÃ‚Â·v_imp`, the impact angular momentum is `L = ÃŽÂ¼Ã‚Â·bÃ‚Â·vÃ¢Ë†Å¾`, depending only on `b` and `vÃ¢Ë†Å¾`.
 
-Mars and the proto-Earth receive identical treatment, including **competing-risk survival weighting** â€” once Theia falls into one planet she can no longer fall into the other. That symmetry is what makes the two collision rates comparable.
+Mars and the proto-Earth receive identical treatment, including **competing-risk survival weighting** Ã¢â‚¬â€ once Theia falls into one planet she can no longer fall into the other. That symmetry is what makes the two collision rates comparable.
 
 Detection by physical radii was measured to catch only ~1 % of Mars passages at this timestep, which is why the analytic approach was necessary.
 
@@ -115,7 +115,7 @@ Detection by physical radii was measured to catch only ~1 % of Mars passages at 
 3. **Partial circularity.** The 6 km/s Borealis constraint forces Theia onto a Mars-aphelion orbit. That Mars is a frequent target is therefore partly a consequence of the setup.
 4. **Conservative estimator.** The observed periapsis distribution shows an excess of deep passages relative to the two-body prediction (ratio rising to ~1.3 at the smallest sampled radii). Reported impact numbers are therefore lower bounds.
 5. **Statistical unit is the case, not the history.** Histories sharing a Theia orbit are not independent.
-6. **Systematic uncertainty exceeds statistical.** Fixing a detection artefact between versions moved the result by a factor of two â€” larger than the ~15 % standard error on the mean.
+6. **Systematic uncertainty exceeds statistical.** Fixing a detection artefact between versions moved the result by a factor of two Ã¢â‚¬â€ larger than the ~15 % standard error on the mean.
 
 ---
 
@@ -165,4 +165,4 @@ All orbital integrations use [REBOUND](https://rebound.readthedocs.io) (Rein & L
 
 ## Licence
 
-MIT â€” see [`LICENSE`](LICENSE).
+MIT Ã¢â‚¬â€ see [`LICENSE`](LICENSE).
