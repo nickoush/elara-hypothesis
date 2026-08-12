@@ -4,6 +4,8 @@
 
 This repository contains the N-body pipeline, results and figures behind a speculative hypothesis linking two of the largest unexplained features of the inner Solar System.
 
+![The encounter](figures/impact.png)
+
 > **Status: this is not a peer-reviewed result.** It is an exploratory study by a non-specialist. The code is offered so that anyone can check the numbers, and the hypothesis is stated so that it can be refuted. Corrections are welcome.
 
 ---
@@ -22,6 +24,19 @@ Two open problems sit next to each other and are usually treated separately:
 - **The fine-tuning of the Moon-forming impact.** Giant impacts are expected, but this one required near-minimum velocity, a favourable angle, and an impactor isotopically almost identical to Earth.
 
 The hypothesis proposes that one improbable event produced three consequences, rather than three coincidences occurring independently.
+
+---
+
+## The sequence
+
+| before | after |
+|---|---|
+| ![Before](figures/orbits_before.png) | ![After](figures/orbits_after.png) |
+
+Left: Theia on an eccentric orbit reaching Mars at aphelion, carrying her
+satellite. Right: after the encounter, Theia crosses both Earth's and Mars's
+orbits while Mars carries a debris disc. Full captions in
+[`figures/README.md`](figures/README.md).
 
 ---
 
