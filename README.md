@@ -35,8 +35,16 @@ The hypothesis proposes that one improbable event produced three consequences, r
 
 Left: Theia on an eccentric orbit reaching Mars at aphelion, carrying her
 satellite. Right: after the encounter, Theia crosses both Earth's and Mars's
-orbits while Mars carries a debris disc. Full captions in
-[`figures/README.md`](figures/README.md).
+orbits while Mars carries a debris disc.
+
+| the scar that remains | the impact that follows |
+|---|---|
+| ![Mars today](figures/mars_after.png) | ![The Moon-forming impact](figures/earth_impact.png) |
+
+Left: Mars billions of years later — a smooth lowland hemisphere against
+ancient cratered highlands. Right: Theia striking the proto-Earth, a hundred
+times more energetic than Borealis and destroying the impactor entirely.
+Full captions in [`figures/README.md`](figures/README.md).
 
 ---
 
